@@ -1,0 +1,35 @@
+@font-face
+{
+	font-family: 'Titulo';
+	font-size: 14px;
+	src: url(../../assets/fonts/Audiowide-Regular.ttf);
+}
+
+
+page-home
+{
+	.titulo
+	{
+		font-family: 'Titulo';
+		-webkit-text-fill-color: #ffffff !important;
+		-webkit-text-stroke: 1px black;
+		position: relative;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	ion-content
+	{
+		background-image: url(../../assets/imgs/balon.jpg);
+		background-position: 65% 75%;
+		filter: brightness(0.6);
+		height: 600px;
+		
+
+	}
+
+	.jj
+	{
+		color: white;
+	}
+}
